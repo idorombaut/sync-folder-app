@@ -61,11 +61,13 @@ cd sync-folder-app
 
 ### Step 3: Set Up Configuration
 1. **Client Configuration**
+
    Open the `config.py` file and configure the following parameters:
    - **SERVER_URL**: Set this to the address of your synchronization server (the server where the files will be stored).
    - **LOCAL_FOLDER**: Set this to the path where the client’s files to be synchronized are stored. This is the directory that the client will monitor for changes.
 
-2. **Server Configuration**
+3. **Server Configuration**
+
    On the server-side, configure the `config.py` file as follows:
    - **SYNC_FOLDER**: Set this to the directory where files from clients will be uploaded and stored.
 
